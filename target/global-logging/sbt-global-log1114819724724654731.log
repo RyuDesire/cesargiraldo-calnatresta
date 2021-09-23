@@ -4,15 +4,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
-[0m[[0m[0minfo[0m] [0m[0mUpdated file /home/s4n/Documents/cesargiraldo-calnatresta/project/build.properties: set sbt.version to 1.5.5[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
 [0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.5.5 (AdoptOpenJDK Java 1.8.0_292)[0m
-[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 390.165335ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 75.421593ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.581079ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 321.448374ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 145.687019ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.299339ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/s4n/Documents/cesargiraldo-calnatresta/project[0m
 [0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
 [0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/s4n/Documents/cesargiraldo-calnatresta/project, returning: ()[0m
@@ -29,26 +28,26 @@
 [0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
 [0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
 [0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
-[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 23.943034 ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(cesargiraldo-calnatresta-build) took 57.562986ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id cesargiraldo-calnatresta-build, base: /home/s4n/Documents/cesargiraldo-calnatresta/project, plugins: List(<none>))) took 109.688344ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 19.311268 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(cesargiraldo-calnatresta-build) took 43.649835ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id cesargiraldo-calnatresta-build, base: /home/s4n/Documents/cesargiraldo-calnatresta/project, plugins: List(<none>))) took 87.344927ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/s4n/Documents/cesargiraldo-calnatresta/project, returning: (cesargiraldo-calnatresta-build)[0m
-[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 138.41543ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 0.425124ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/home/s4n/Documents/cesargiraldo-calnatresta/project/, ...) took 292.732727ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 490.587986ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 8.04438ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 63.844015ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 9.42563ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 405.428643ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 92.07446ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 1.572405ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 109.02639ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 0.233269ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/home/s4n/Documents/cesargiraldo-calnatresta/project/, ...) took 261.569568ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 412.517506ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 7.886734ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 64.985236ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 9.450755ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 344.738767ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 98.011614ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 1.60844ms[0m
 [0m[[0m[0minfo[0m] [0m[0mloading project definition from /home/s4n/Documents/cesargiraldo-calnatresta/project[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 2732.337735ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.002863ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 1698.173906ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.00433ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/s4n/Documents/cesargiraldo-calnatresta[0m
-[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 11.125984ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 6.490471ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
 [0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/s4n/Documents/cesargiraldo-calnatresta, returning: ()[0m
 [0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
@@ -64,28 +63,26 @@
 [0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
 [0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
 [0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
-[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 1.945915 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 1.865595 ms[0m
 [0m[[0m[0minfo[0m] [0m[0mloading settings for project cesargiraldo-calnatresta from build.sbt ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(cesargiraldo-calnatresta) took 4.30187ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id cesargiraldo-calnatresta, base: /home/s4n/Documents/cesargiraldo-calnatresta, plugins: List(<none>))) took 6.819506ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(cesargiraldo-calnatresta) took 3.833996ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id cesargiraldo-calnatresta, base: /home/s4n/Documents/cesargiraldo-calnatresta, plugins: List(<none>))) took 6.290795ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/s4n/Documents/cesargiraldo-calnatresta, returning: (cesargiraldo-calnatresta)[0m
-[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 58.691829ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 0.014247ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/home/s4n/Documents/cesargiraldo-calnatresta/, ...) took 2792.428832ms[0m
-[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 2821.762699ms[0m
-[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 0.124946ms[0m
-[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 7.939549ms[0m
-[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 0.443073ms[0m
-[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 114.704479ms[0m
-[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 29.608971ms[0m
-[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 0.009499ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 48.054362ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 0.013689ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/home/s4n/Documents/cesargiraldo-calnatresta/, ...) took 1747.31276ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 1767.622195ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 0.108533ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 7.87954ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 0.388526ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 82.156992ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 24.498015ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 0.005238ms[0m
 [0m[[0m[0minfo[0m] [0m[0mset current project to cesargiraldo-calnatresta (in build file:/home/s4n/Documents/cesargiraldo-calnatresta/)[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(notifyUsersAboutShell, None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(iflast shell, None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
-[0m[[0m[0minfo[0m] [0m[0msbt server started at local:///home/s4n/.sbt/1.0/server/8c6e8f1504de3ba5b0c3/sock[0m
-[0m[[0m[0mdebug[0m] [0m[0mWriting bsp connection file[0m
-[0m[[0m[0minfo[0m] [0m[0mstarted sbt server[0m
-[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[33mwarn[0m] [0m[0msbt server could not start because there's another instance of sbt running on this build.[0m
+[0m[[0m[33mwarn[0m] [0m[0mRunning multiple instances is unsupported[0m
